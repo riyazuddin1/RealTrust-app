@@ -108,8 +108,8 @@ Response sent back to Frontend
 
 This separation follows **industry-standard full-stack architecture**.
 
----
 
+```
 ## 📂 Project Structure
 
 RealTrust-app/
@@ -129,7 +129,9 @@ RealTrust-app/
 │
 └── README.md
 
----
+```
+
+
 
 ## 🚀 How to Run the Project Locally
 
