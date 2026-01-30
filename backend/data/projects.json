@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1769696372112-4e7cff63fe01e",
+    "name": "Consultation",
+    "description": "Project Name, Location",
+    "imageUrl": "/uploads/seed-pexels-brett-sayles-2881232.svg",
+    "createdAt": "2026-01-29T14:19:32.112Z"
+  },
+  {
+    "id": "1769696372113-a2691c63b8b3c",
+    "name": "Design",
+    "description": "Project Name, Location",
+    "imageUrl": "/uploads/seed-pexels-brett-sayles-2881232-1.svg",
+    "createdAt": "2026-01-29T14:19:32.113Z"
+  },
+  {
+    "id": "1769696372113-734b273ebd643",
+    "name": "Marketing & Design",
+    "description": "Project Name, Location",
+    "imageUrl": "/uploads/seed-pexels-brett-sayles-2881232-2.svg",
+    "createdAt": "2026-01-29T14:19:32.113Z"
+  },
+  {
+    "id": "1769696372113-a820a8f205f64",
+    "name": "Consultation & Marketing",
+    "description": "Project Name, Location",
+    "imageUrl": "/uploads/seed-pexels-brett-sayles-2881232-3.svg",
+    "createdAt": "2026-01-29T14:19:32.113Z"
+  },
+  {
+    "id": "1769696372113-8af16aa33511e",
+    "name": "Consultation",
+    "description": "Project Name, Location",
+    "imageUrl": "/uploads/seed-pexels-fauxels-3182834.svg",
+    "createdAt": "2026-01-29T14:19:32.113Z"
+  }
+]

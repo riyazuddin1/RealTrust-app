@@ -1,0 +1,139 @@
+.clients {
+  padding: 70px 0 90px;
+  background: #fff;
+}
+
+.clients-title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 900;
+  color: #1f3b57;
+  margin-bottom: 12px;
+  letter-spacing: -1px;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.clients-underline {
+  width: 80px;
+  height: 4px;
+  background: #1f7ae0;
+  margin: 0 auto 48px;
+  border-radius: 2px;
+  animation: expandWidth 0.6s ease-out 0.2s both;
+}
+
+.clients-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 14px;
+}
+
+.client-card {
+  background: #fff;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 12px;
+  padding: 28px 20px 20px;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.08);
+  position: relative;
+  min-height: 220px;
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.6s ease-out;
+  animation-fill-mode: both;
+}
+
+.client-card:nth-child(1) { animation-delay: 0.1s; }
+.client-card:nth-child(2) { animation-delay: 0.2s; }
+.client-card:nth-child(3) { animation-delay: 0.3s; }
+.client-card:nth-child(4) { animation-delay: 0.4s; }
+.client-card:nth-child(5) { animation-delay: 0.5s; }
+
+.client-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.12);
+}
+
+.client-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  position: absolute;
+  top: -28px;
+  left: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.client-card:hover .client-avatar {
+  transform: scale(1.1);
+}
+
+.client-desc {
+  margin-top: 16px;
+  font-size: 15px;
+  color: #4b5563;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.client-meta {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.client-name {
+  font-size: 18px;
+  font-weight: 800;
+  color: #1f7ae0;
+  margin-bottom: 4px;
+  letter-spacing: -0.3px;
+}
+
+.client-role {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.clients-loading,
+.clients-empty {
+  text-align: center;
+  color: #6b7280;
+  padding: 24px 0;
+}
+
+@media (max-width: 1200px) {
+  .clients {
+    padding: 56px 0 72px;
+  }
+
+  .clients-title {
+    font-size: 32px;
+  }
+
+  .clients-row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .clients-row {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .client-card {
+    padding-top: 32px;
+  }
+
+  .client-desc {
+    font-size: 14px;
+  }
+
+  .client-name {
+    font-size: 16px;
+  }
+}
+

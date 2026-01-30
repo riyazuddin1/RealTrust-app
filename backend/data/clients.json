@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1769696372114-80b1cb44c030b",
+    "name": "Rowhan Smith",
+    "designation": "CEO, Foreclosure",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageUrl": "/uploads/seed-pexels-brett-sayles-2881232.svg",
+    "createdAt": "2026-01-29T14:19:32.114Z"
+  },
+  {
+    "id": "1769696372114-6b45f4c20aa04",
+    "name": "Shipra Kayak",
+    "designation": "Brand Designer",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageUrl": "/uploads/seed-pexels-brett-sayles-2881232-1.svg",
+    "createdAt": "2026-01-29T14:19:32.114Z"
+  },
+  {
+    "id": "1769696372114-6e02250becded",
+    "name": "John Lepore",
+    "designation": "CEO, Foreclosure",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageUrl": "/uploads/seed-pexels-brett-sayles-2881232-2.svg",
+    "createdAt": "2026-01-29T14:19:32.114Z"
+  },
+  {
+    "id": "1769696372114-78feb4fb72cf1",
+    "name": "Marry Freeman",
+    "designation": "Marketing Manager",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageUrl": "/uploads/seed-pexels-brett-sayles-2881232-3.svg",
+    "createdAt": "2026-01-29T14:19:32.114Z"
+  },
+  {
+    "id": "1769696372114-7f34a0d390748",
+    "name": "Lucy",
+    "designation": "Sales Rep",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imageUrl": "/uploads/seed-pexels-fauxels-3182834.svg",
+    "createdAt": "2026-01-29T14:19:32.114Z"
+  }
+]

@@ -1,0 +1,141 @@
+.lead-form-section {
+  background: white;
+  padding: 100px 0;
+}
+
+.form-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.form-content {
+  max-width: 100%;
+}
+
+.form-title {
+  font-size: 42px;
+  font-weight: 800;
+  color: var(--text-dark);
+  margin-bottom: 16px;
+}
+
+.form-description {
+  font-size: 18px;
+  color: var(--text-light);
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.lead-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: var(--text-dark);
+  font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 14px 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  background: #f8fafc;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-status {
+  padding: 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 16px;
+  animation: slideIn 0.3s ease-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-status.success {
+  background: #ffffff;
+  color: #10b981;
+  border-left: 5px solid #10b981;
+}
+
+.form-status.error {
+  background: #ffffff;
+  color: #ef4444;
+  border-left: 5px solid #ef4444;
+}
+
+.form-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: var(--shadow-lg);
+}
+
+@media (max-width: 968px) {
+  .form-wrapper {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .form-image {
+    order: -1;
+  }
+
+  .form-title {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .form-description {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead-form-section {
+    padding: 60px 0;
+  }
+
+  .form-title {
+    font-size: 28px;
+  }
+
+  .form-description {
+    font-size: 16px;
+  }
+}
